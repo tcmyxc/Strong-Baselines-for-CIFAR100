@@ -268,3 +268,18 @@ torchrun --nproc_per_node=1  --master_port="29429" classification/train.py \
 
 ![image-20240408180525092](./images/image-20240408180525092.png)
 
+## Cite
+
+If you find this repo useful in your research, please consider citing:
+
+```bash
+@software{xu2024strong,
+    title        = {Strong-Baselines-for-CIFAR100},
+    author       = {Wenxiang Xu},
+    year         = 2024,
+    journal      = {GitHub repository},
+    publisher    = {GitHub},
+    howpublished = {\url{https://github.com/tcmyxc/Strong-Baselines-for-CIFAR100}}
+}
+```
+
