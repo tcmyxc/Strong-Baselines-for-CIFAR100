@@ -4,9 +4,9 @@
 
 > My current best result using ResNet50 on the CIFAR100 dataset is **86.01%**, which has achieved the state-of-the-art (SOTA) among pure CNN architectures on the Papers with Code leaderboard without using additional data.
 
-|   模型名    | acc (%) |                    权重及训练日志下载地址                    |
-| :---------: | :-----: | :----------------------------------------------------------: |
-| ResNet50-E5 |  86.01  | [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)，[谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link) |
+|   模型名    | acc (%) | 训练时间 |                    权重及训练日志下载地址                    |
+| :---------: | :-----: | :------: | :----------------------------------------------------------: |
+| ResNet50-E5 |  86.01  | 6:50:28  | [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)，[谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link) |
 
 ## 前言
 
