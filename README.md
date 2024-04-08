@@ -249,3 +249,13 @@ torchrun --nproc_per_node=1  --master_port="29429" classification/train.py \
     --data-path /path/to/cifar100
 ```
 
+最优结果训练曲线：
+
+（1）学习率曲线
+
+![image-20240408180436778](./images/image-20240408180436778.png)
+
+（2）loss & acc 曲线
+
+![image-20240408180525092](./images/image-20240408180525092.png)
+
