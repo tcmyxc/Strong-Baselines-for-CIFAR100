@@ -1,8 +1,15 @@
 # Strong-Baselines-for-CIFAR100
 
-本仓库聚焦于图像分类任务，使用了模型结构设计、数据增强、训练的tricks等方法，为CIFAR100数据集提供一个较强的基线结果。
-
 本人目前使用ResNet50在CIFAR100数据集上的最好结果为**86.01%**，在不使用额外数据的情况下已经达到了papers with code排行榜中纯CNN架构的SOTA
+
+权重及训练日志下载地址：
+
+- [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)
+- [谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link)
+
+## 前言
+
+本仓库聚焦于图像分类任务，使用了模型结构设计、数据增强、训练的tricks等方法，为CIFAR100数据集提供一个较强的基线结果。
 
 - 数据集下载地址：https://www.cs.toronto.edu/~kriz/cifar.html
 - papers with code排行榜：https://paperswithcode.com/sota/image-classification-on-cifar-100
