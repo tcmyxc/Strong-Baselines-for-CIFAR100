@@ -4,9 +4,19 @@
 
 > My current best result using ResNet50 on the CIFAR100 dataset is **86.01%**, which has achieved the state-of-the-art (SOTA) among pure CNN architectures on the Papers with Code leaderboard without using additional data.
 
-|   模型名    | acc (%) | 训练时间 |                    权重及训练日志下载地址                    |
-| :---------: | :-----: | :------: | :----------------------------------------------------------: |
-| ResNet50-E5 |  86.01  | 6:50:28  | [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)，[谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link) |
+|               模型名                |  acc (%)  | 训练时间 |                    权重及训练日志下载地址                    |
+| :---------------------------------: | :-------: | :------: | :----------------------------------------------------------: |
+|             ResNet50-E5             |   86.01   | 6:50:28  | [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)，[谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link) |
+|             WRN-50-2-E5             |   85.74   | 12:35:44 |                                                              |
+|            ResNet-101-E5            |   85.50   | 10:02:03 |                                                              |
+|            ResNet-152-E5            |   86.38   | 14:57:37 |                                                              |
+|               E6-tiny               |   85.49   | 10:16:27 |                                                              |
+|              E6-small               |   86.32   | 19:47:55 |                                                              |
+|    WRN-18-10-E6 (resnet18_10_E6)    |   85.03   | 10:45:00 |                                                              |
+| WRN-18-10-E6-v2 (resnet18_10_E6_v2) |   85.22   | 7:48:08  |                                                              |
+| WRN-26-10-E6-v2 (resnet26_10_E6_v2) |   85.00   | 16:04:39 |                                                              |
+| WRN-34-10-E6-v2 (resnet34_10_E6_v2) |   85.55   | 19:06:49 |                                                              |
+|  ResNet272-E6-v2 (resnet272_E6_v2)  | **86.39** | 18:14:55 |                                                              |
 
 ## 前言
 
