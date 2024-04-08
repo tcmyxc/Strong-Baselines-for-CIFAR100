@@ -1,4 +1,4 @@
-# Strong-Baselines-for-CIFAR100
+# Strong Baselines for CIFAR100
 
 本人目前使用ResNet50在CIFAR100数据集上的最好结果为**86.01%**，在不使用额外数据的情况下已经达到了papers with code排行榜中纯CNN架构的SOTA
 
@@ -274,7 +274,7 @@ If you find this repo useful in your research, please consider citing:
 
 ```bash
 @software{xu2024strong,
-    title        = {Strong-Baselines-for-CIFAR100},
+    title        = {Strong Baselines for CIFAR100},
     author       = {Wenxiang Xu},
     year         = 2024,
     journal      = {GitHub repository},
