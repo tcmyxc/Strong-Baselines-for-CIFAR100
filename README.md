@@ -271,7 +271,7 @@ torchrun --nproc_per_node=1  --master_port="29429" classification/train.py \
 
 If you find this repo useful in your research, please consider citing:
 
-```bash
+```bibtex
 @software{xu2024strong,
     title        = {Strong Baselines for CIFAR100},
     author       = {Wenxiang Xu},
