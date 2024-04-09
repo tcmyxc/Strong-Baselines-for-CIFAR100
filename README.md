@@ -17,6 +17,39 @@
 | WRN-26-10-E6-v2 (resnet26_10_E6_v2) |   85.00   | 16:04:39 |                                                              |             |
 | WRN-34-10-E6-v2 (resnet34_10_E6_v2) |   85.55   | 19:06:49 |                                                              |             |
 |  ResNet272-E6-v2 (resnet272_E6_v2)  | **86.39** | 18:14:55 |                                                              | 双卡RTX3090 |
+|              WRN-16-8               |   81.27   | 3:16:37  |                                                              |             |
+
+上述结果默认训练脚本：
+
+```bash
+#!/bin/bash
+
+for model in 'model_name'
+do
+    torchrun --nproc_per_node=1  --master_port="29429" classification/train.py \
+        --model ${model} \
+        --model_lib custom \
+        --data_name cifar100 \
+        --batch-size 128 \
+        --lr 0.1 \
+        --lr-scheduler cosineannealinglr \
+        --epochs 300 \
+        --lr-warmup-epochs 20 \
+        --lr-min 1e-6 \
+        --wd 5e-4 \
+        --auto_augment \
+        --random_erase 0.25 \
+        --mixup-alpha 1 \
+        --cutmix-alpha 1 \
+        --act_layer relu \
+        --loss_type ce \
+        --print-freq 100 \
+        --output-dir ./work_dir/aa-re_0.25-mixup-cutmix \
+        --data-path /path/to/cifar100
+
+    wait
+done
+```
 
 ## 前言
 
