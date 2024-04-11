@@ -3,6 +3,8 @@
 |               模型名                |  acc (%)  | 训练时间 |                    权重及训练日志下载地址                    |    备注     |
 | :---------------------------------: | :-------: | :------: | :----------------------------------------------------------: | :---------: |
 |             ResNet50-E5             |   86.01   | 6:50:28  | [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)，[谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link) |             |
+|    ResNet50-E5+Stochastic Depth     |   86.12   | 6:53:32  |                                                              |   dp=0.1    |
+|    ResNet50-E5+Stochastic Depth     |   86.06   | 7:57:22  |                                                              |   dp=0.2    |
 |             WRN-50-2-E5             |   85.74   | 12:35:44 |                                                              |             |
 |            ResNet-101-E5            |   85.50   | 10:02:03 |                                                              |             |
 |            ResNet-152-E5            | **86.38** | 14:57:37 |                                                              |             |
