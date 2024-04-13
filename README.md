@@ -1,12 +1,13 @@
 # Strong Baselines for CIFAR100
 
-本人目前使用ResNet50在CIFAR100数据集上的最好结果为**86.01%**，在不使用额外数据的情况下已经达到了papers with code排行榜中纯CNN架构的SOTA
+本人目前使用ResNet50在CIFAR100数据集上的最好结果为**86.12%**，在不使用额外数据的情况下已经达到了papers with code排行榜中纯CNN架构的SOTA
 
-> My current best result using ResNet50 on the CIFAR100 dataset is **86.01%**, which has achieved the state-of-the-art (SOTA) among pure CNN architectures on the Papers with Code leaderboard without using additional data.
+> My current best result using ResNet50 on the CIFAR100 dataset is **86.12%**, which has achieved the state-of-the-art (SOTA) among pure CNN architectures on the Papers with Code leaderboard without using additional data.
 
-|   模型名    | acc (%) | 训练时间 |                    权重及训练日志下载地址                    | 备注 |
-| :---------: | :-----: | :------: | :----------------------------------------------------------: | :--: |
-| ResNet50-E5 |  86.01  | 6:50:28  | [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)，[谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link) |      |
+|            模型名            | acc (%) | 训练时间 |                    权重及训练日志下载地址                    |  备注  |
+| :--------------------------: | :-----: | :------: | :----------------------------------------------------------: | :----: |
+|         ResNet50-E5          |  86.01  | 6:50:28  | [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)，[谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link) |        |
+| ResNet50-E5+Stochastic Depth |  86.12  | 6:53:32  |                                                              | dp=0.1 |
 
 [更多实验结果 (More results)](Leaderboard.md)
 
