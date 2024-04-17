@@ -5,6 +5,7 @@
 |                         ResNet50-E5                         |   86.01   |     6:50:28      | [百度网盘](https://pan.baidu.com/s/1qwW-jEnL5SnKull2Pl35Zw?pwd=l2ok)，[谷歌网盘](https://drive.google.com/file/d/1DdFcILRpM9jJR7a584_MYsUtF-DfH8QQ/view?usp=drive_link) |                                                              |
 |                ResNet50-E5+Stochastic Depth                 |   86.12   |     6:53:32      |                                                              |                            dp=0.1                            |
 |                ResNet50-E5+Stochastic Depth                 |   86.06   |     7:57:22      |                                                              |                            dp=0.2                            |
+|                ResNet50-E5+Stochastic Depth                 | **86.34** |     3:42:15      |                                                              | 4卡RTX3090，混合精度训练，单卡批量大小64，总批量大小256，学习率0.1，dp=0.1 |
 |                   ResNet50-E5+Drop Block                    |   85.82   |     8:12:54      |                                                              |                            db=0.1                            |
 |                         WRN-50-2-E5                         |   85.74   |     12:35:44     |                                                              |                                                              |
 |                        ResNet-101-E5                        |   85.50   |     10:02:03     |                                                              |                                                              |
@@ -60,3 +61,4 @@ do
     wait
 done
 ```
+
