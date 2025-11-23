@@ -284,5 +284,15 @@ If you find this repo useful in your research, please consider citing:
     publisher    = {GitHub},
     howpublished = {\url{https://github.com/tcmyxc/Strong-Baselines-for-CIFAR100}}
 }
+
+@article{xu2025deep,
+  title={Deep feature response discriminative calibration},
+  author={Xu, Wenxiang and Qiu, Tian and Zhou, Linyun and Feng, Zunlei and Song, Mingli and Wang, Huiqiong},
+  journal={Neurocomputing},
+  volume={615},
+  pages={128848},
+  year={2025},
+  publisher={Elsevier}
+}
 ```
 
